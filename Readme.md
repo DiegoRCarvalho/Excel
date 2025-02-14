@@ -14,6 +14,7 @@
 - [Grafico de Comparação](#grafico-de-comparação)
 - [Gráfico de Funil de Vendas 1](#grafico-de-funil-de-vendas-1)
 - [Gráfico de Funil de Vendas 2](#grafico-de-funil-de-vendas-2)
+- [Imagens no Gráfico](#imagens-no-gráfico)
 
 
 ### Gráfico de Velocímetro
@@ -236,11 +237,25 @@
   ![alt](/img/grafico_de_funil_de_vendas2/2025-02-13_20-34.png)
 - E está pronto!
 
+### Imagens no Gráfico
 
+  ![alt](/img/imagem_no_grafico/)
 
-
-  ![alt](/)
-
+#### Passo a passo
+- Criar gráfico.
+- Inserir a imagem desejada na planilha.
+  ![alt](/img/imagem_no_grafico/2025-02-13_21-16.png)
+- Selecionar e copiar (CTRL + C) a imagem.
+- Selecionar apenas as barras do gráfico.
+- Colar a imagem (CTRL + V).
+  ![alt](/img/imagem_no_grafico/2025-02-13_21-23.png)
+- Apagar a imagem importada.
+- Alterar o preenchimento para *Empilhar*
+- Alterar a *Largura do Espaçamento* até ficar bom de acordo com a imagem utilizada.
+  ![alt](/img/imagem_no_grafico/2025-02-13_21-30.png)
+- A mesma técnica se aplica a outros tipos de gráfico.
+  ![alt](/img/imagem_no_grafico/2025-02-13_21-41.png)
+  
 
 
 
@@ -248,3 +263,4 @@
 ## Dashboard no Excel
 
 ## Dicas do Excel
+  ![alt](/)
