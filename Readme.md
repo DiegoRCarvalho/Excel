@@ -239,8 +239,6 @@
 
 ### Imagens no Gráfico
 
-  ![alt](/img/imagem_no_grafico/)
-
 #### Passo a passo
 - Criar gráfico.
 - Inserir a imagem desejada na planilha.
@@ -256,8 +254,27 @@
 - A mesma técnica se aplica a outros tipos de gráfico.
   ![alt](/img/imagem_no_grafico/2025-02-13_21-41.png)
   
+### Gráfico de Meta com Imagem Indicando Meta Atingida
+  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_21-57.png)
 
+#### Dados Necessários
+- Valor de Meta
+- Data
+- Valor
+- Valor Acumulado
+- Meta Atingida
 
+#### Passo a passo
+- Ver fórmulas abaixo.
+  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_21-59.png)
+- Selecionar a data, valor e meta atingida em e inserir um gráfico de colunas **empilhado**, precisa ser empilhado.
+  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_22-22.png)
+- O **1500** utilizado na fórmula é o responsavel por gerar a barra laranja no gráfico. Esse número deve diminuir caso os valores trabalhados sejam na casa de centenas ou deve aumentar caso os valores trabalhados sejam maiores. 
+  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_22-26.png)
+- Copiar a imagem da seta vermelha.
+- Selecionar a barra que representa o 1500.
+- Colar a imagem.
+- E está pronto!
 
 
 ## Dashboard no Excel
