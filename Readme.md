@@ -1,20 +1,23 @@
 # Excel
 
-- [Gráficos no Excel](#gráficos-no-excel)
-- [Dashboard no Excel](#dashboard-no-excel)
-- [Dicas do Excel](#dicas-do-excel)
+## [Gráficos no Excel](#gráficos-no-excel)
+  - [Gráfico de Velocímetro](#gráfico-de-velocímetro)
+  - [Meta vs Realizado - Barra](#meta-vs-realizado---barra)
+  - [Meta vs Realizado - Linha](#meta-vs-realizado---linha)
+  - [Grafico com Barra de Rolagem](#grafico-com-barra-de-rolagem)
+  - [Grafico de Comparação](#grafico-de-comparação)
+  - [Gráfico de Funil de Vendas 1](#grafico-de-funil-de-vendas-1)
+  - [Gráfico de Funil de Vendas 2](#grafico-de-funil-de-vendas-2)
+  - [Imagens no Gráfico](#imagens-no-gráfico)
+
+## [Dashboard no Excel](#dashboard-no-excel)
+
+## [Dicas do Excel](#dicas-do-excel)
+  - [Cálculos com Porcentagem](#cálculos-com-porcentagem)
+  - [Formatação Condicional](#formatação-condicional)
+  - [Trabalhando com Datas](#trabalhando-com-datas)
 
 
-## Gráficos no Excel
-
-- [Gráfico de Velocímetro](#gráfico-de-velocímetro)
-- [Meta vs Realizado - Barra](#meta-vs-realizado---barra)
-- [Meta vs Realizado - Linha](#meta-vs-realizado---linha)
-- [Grafico com Barra de Rolagem](#grafico-com-barra-de-rolagem)
-- [Grafico de Comparação](#grafico-de-comparação)
-- [Gráfico de Funil de Vendas 1](#grafico-de-funil-de-vendas-1)
-- [Gráfico de Funil de Vendas 2](#grafico-de-funil-de-vendas-2)
-- [Imagens no Gráfico](#imagens-no-gráfico)
 
 
 ### Gráfico de Velocímetro
@@ -80,7 +83,7 @@
 
 ### Meta vs Realizado - Barra
 
-![alt](/img/meta_vs_realizado_barra/2025-02-10_23-05.png)
+![alt](img/meta_vs_realizado_barra/2025-02-10_23-05.png)
 
 #### Dados necessários
 
@@ -104,7 +107,7 @@
 
 ### Meta vs Realizado - Linha
 
-![alt](/img/meta_vs_realizado_linha/2025-02-11_15-18.png)
+![alt](img/meta_vs_realizado_linha/2025-02-11_15-18.png)
 
 #### Dados necessários
 
@@ -117,50 +120,50 @@
 #### Passo a passo
 
 - Criar fórmulas conforme imagem abaixo
-  ![alt](/img/meta_vs_realizado_linha/2025-02-11_15-34.png)
-  ![alt](/img/meta_vs_realizado_linha/2025-02-11_15-35.png)
+  ![alt](img/meta_vs_realizado_linha/2025-02-11_15-34.png)
+  ![alt](img/meta_vs_realizado_linha/2025-02-11_15-35.png)
 
 - Selecionar a tabela e inserir um **Gráfico de Linhas com Marcadores**.
 - O #N/D nas fómulas é importante porque é assim que o gráfico sabe que não deve exibir essa informação.
 - Selecionar apenas os pontos referentes a coluna verde e alterar conforme imagens abaixo.
-  ![alt](/img/meta_vs_realizado_linha/2025-02-11_15-52.png)
-  ![alt](/img/meta_vs_realizado_linha/2025-02-11_15-54.png)
+  ![alt](img/meta_vs_realizado_linha/2025-02-11_15-52.png)
+  ![alt](img/meta_vs_realizado_linha/2025-02-11_15-54.png)
 
 - Repetir as mesmas etapas com os pontos referentes a coluna vermelha.
 - Selecionar a linha e editar conforme imagem abaixo.
-  ![alt](/img/meta_vs_realizado_linha/2025-02-11_16-00.png)
+  ![alt](img/meta_vs_realizado_linha/2025-02-11_16-00.png)
 - Alterar a cor da linha da meta.
 - Nos pontos superiores e inferiores, adicionar *Rótulo de dados* e formatar as formas, cores e posições dos rótulos.
 - Clicar com o direito no gráfico, em seguida em *Selecionar Dados* / Células Ocultas e Vazias e marcar a opção **Mostrar dados em linhas e colunas ocultas**. A partir daqui as colunas verde, vermelho e meta poderão ser ocultas sem que os dados delas sumam do gráfico.
-  ![alt](/img/meta_vs_realizado_linha/2025-02-11_17-02.png)
+  ![alt](img/meta_vs_realizado_linha/2025-02-11_17-02.png)
 - E está pronto!
 
 ### Grafico com Barra de Rolagem
 
-![alt](/img/grafico_com_barra_de_rolagem/2025-02-11_20-01.png)
+![alt](img/grafico_com_barra_de_rolagem/2025-02-11_20-01.png)
 
 #### Passo a passo
 
 - Clicar em Desenvolvedor / Inserir / Barra de Rolagem
 - Desenhar uma *Barra de Rolagem*
 - Clicar com o direito e em *Formatar controle* conforme imagem abaixo.
-  ![alt](/img/grafico_com_barra_de_rolagem/2025-02-11_20-16.png)
+  ![alt](img/grafico_com_barra_de_rolagem/2025-02-11_20-16.png)
 
 - Copiar os títulos para uma área que não será exibida.
 - Criar as fórmulas indicadas na imagem abaixo, para alterarmos os dados de acordo com o número de linha indicado na coluna, este é modificado através do movimento da barra de rolagem.
-  ![alt](/img/grafico_com_barra_de_rolagem/2025-02-11_20-26.png)
+  ![alt](img/grafico_com_barra_de_rolagem/2025-02-11_20-26.png)
 
 - Selecionar os dados indicados na imagem abaixo e insira um gráfico de linha.
-  ![alt](/img/grafico_com_barra_de_rolagem/2025-02-11_20-40.png)
+  ![alt](img/grafico_com_barra_de_rolagem/2025-02-11_20-40.png)
 - Formatar o gráfico conforme desejado.
 - Criar a seguinte *Formação Condicional* conforme imagem abaixo.
-  ![alt](/img/grafico_com_barra_de_rolagem/2025-02-11_21-06.png)
+  ![alt](img/grafico_com_barra_de_rolagem/2025-02-11_21-06.png)
 - E está pronto!
 
 
 ### Grafico de Comparação
 
-![alt](/img/grafico_de_comparacao/2025-02-11_21-18.png)
+![alt](img/grafico_de_comparacao/2025-02-11_21-18.png)
 
 #### Dados necessários
 
@@ -171,14 +174,14 @@
 
 - Selecionar do título do candidato 1 até o valor do último critério dele.
 - Repetir o passo anterior para o candidato 2.
-  ![alt](/img/grafico_de_comparacao/2025-02-11_21-34.png)
+  ![alt](img/grafico_de_comparacao/2025-02-11_21-34.png)
 - No gráfico do "candidato 1", selecionar a porcentagem e  marcar a opção "Valores em Ordem Inversa".
 - Remover as linhas das bordas dos dois gráficos.
 - Inserir uma caixa de texto para cada critério e o vincular a célula correspondente, conforme imagem abaixo.
-  ![alt](/img/grafico_de_comparacao/2025-02-11_22-00.png)
+  ![alt](img/grafico_de_comparacao/2025-02-11_22-00.png)
 - Inserir um retângulo com cantos arredondados e sem preenchimento por volta dos dois gráficos.
 - Selecionar os eixos e definir o mínimo e máximo dos valores dos critérios, ver imagem abaixo.
-  ![alt](/img/grafico_de_comparacao/2025-02-11_22-13.png)
+  ![alt](img/grafico_de_comparacao/2025-02-11_22-13.png)
 
 - Pressionar Ctrl + G, na janela que se abrirá, clicar em *Especial*, e na próxima tela marcar *Objetos*. Isso irá selecionar todos os objetos da aba atual.
 - Clicar com o direito e em seguida em *Agrupar*
@@ -188,7 +191,7 @@
 
 ### Grafico de Funil de Vendas 1
 
-![alt](/img/grafico_de_funil_de_vendas1/2025-02-12_10-29.png)
+![alt](img/grafico_de_funil_de_vendas1/2025-02-12_10-29.png)
 
 #### Dados necessários
 - Itens do funil
@@ -200,22 +203,22 @@
 - A segunda e terceira coluna de qtd terão fórmula apontando para receberem o mesmo valor da primeira coluna qtd.
 - Selecionar os dados da segunda coluna de qtd., clicar em *Formatação Condicional* / *Barra de dados* e escolher um dos estilos. Conforme imagem abaixo.
 
-  ![alt](/img/grafico_de_funil_de_vendas1/2025-02-12_10-35.png)
+  ![alt](img/grafico_de_funil_de_vendas1/2025-02-12_10-35.png)
 - Editar a regra da formatação condicional da segunda coluna de qtd. para que exiba a direção da barra da direita para a esquerda. Ver imagem abaixo.
-  ![alt](/img/grafico_de_funil_de_vendas1/2025-02-12_10-44.png)
+  ![alt](img/grafico_de_funil_de_vendas1/2025-02-12_10-44.png)
 
-  ![alt](/img/grafico_de_funil_de_vendas1/2025-02-12_11-20.png)
+  ![alt](img/grafico_de_funil_de_vendas1/2025-02-12_11-20.png)
 
 - Inserir uma borda central com a mesma cor da formatação condicional.
 - Mesclar os títulos da segunda e terceira qtd e chamar de Funil
-  ![alt](/img/grafico_de_funil_de_vendas1/2025-02-12_11-59.png)
+  ![alt](img/grafico_de_funil_de_vendas1/2025-02-12_11-59.png)
 
 - E está pronto!
 
 
 ### Grafico de Funil de Vendas 2
 
-![alt](/img/grafico_de_funil_de_vendas2/2025-02-12_12-06.png)
+![alt](img/grafico_de_funil_de_vendas2/2025-02-12_12-06.png)
 
 #### Dados necessários
 
@@ -225,16 +228,16 @@
 #### Passo a passo
 
 - Inserir a fórmula abaixo.
-  ![alt](/img/grafico_de_funil_de_vendas2/2025-02-13_19-25.png)
+  ![alt](img/grafico_de_funil_de_vendas2/2025-02-13_19-25.png)
 - Selecionar os dados.
 - Inserir um gráfico de barras empilhado.
-  ![alt](/img/grafico_de_funil_de_vendas2/2025-02-13_19-27.png)
+  ![alt](img/grafico_de_funil_de_vendas2/2025-02-13_19-27.png)
 - Remover o fundo e a borda da barra que representa a coluna qtd. que possui fórmula.
-  ![alt](/img/grafico_de_funil_de_vendas2/2025-02-13_19-37.png)
+  ![alt](img/grafico_de_funil_de_vendas2/2025-02-13_19-37.png)
 - Inverter a exibição do gráfico.
-  ![alt](/img/grafico_de_funil_de_vendas2/2025-02-13_19-38.png)
+  ![alt](img/grafico_de_funil_de_vendas2/2025-02-13_19-38.png)
 - Aumentar a largura das barras.
-  ![alt](/img/grafico_de_funil_de_vendas2/2025-02-13_20-34.png)
+  ![alt](img/grafico_de_funil_de_vendas2/2025-02-13_20-34.png)
 - E está pronto!
 
 ### Imagens no Gráfico
@@ -242,20 +245,20 @@
 #### Passo a passo
 - Criar gráfico.
 - Inserir a imagem desejada na planilha.
-  ![alt](/img/imagem_no_grafico/2025-02-13_21-16.png)
+  ![alt](img/imagem_no_grafico/2025-02-13_21-16.png)
 - Selecionar e copiar (CTRL + C) a imagem.
 - Selecionar apenas as barras do gráfico.
 - Colar a imagem (CTRL + V).
-  ![alt](/img/imagem_no_grafico/2025-02-13_21-23.png)
+  ![alt](img/imagem_no_grafico/2025-02-13_21-23.png)
 - Apagar a imagem importada.
 - Alterar o preenchimento para *Empilhar*
 - Alterar a *Largura do Espaçamento* até ficar bom de acordo com a imagem utilizada.
-  ![alt](/img/imagem_no_grafico/2025-02-13_21-30.png)
+  ![alt](img/imagem_no_grafico/2025-02-13_21-30.png)
 - A mesma técnica se aplica a outros tipos de gráfico.
-  ![alt](/img/imagem_no_grafico/2025-02-13_21-41.png)
+  ![alt](img/imagem_no_grafico/2025-02-13_21-41.png)
   
 ### Gráfico de Meta com Imagem Indicando Meta Atingida
-  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_21-57.png)
+  ![alt](img/grafico_de_meta_com_imagem/2025-02-13_21-57.png)
 
 #### Dados Necessários
 - Valor de Meta
@@ -266,11 +269,11 @@
 
 #### Passo a passo
 - Ver fórmulas abaixo.
-  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_21-59.png)
+  ![alt](img/grafico_de_meta_com_imagem/2025-02-13_21-59.png)
 - Selecionar a data, valor e meta atingida em e inserir um gráfico de colunas **empilhado**, precisa ser empilhado.
-  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_22-22.png)
+  ![alt](img/grafico_de_meta_com_imagem/2025-02-13_22-22.png)
 - O **1500** utilizado na fórmula é o responsavel por gerar a barra laranja no gráfico. Esse número deve diminuir caso os valores trabalhados sejam na casa de centenas ou deve aumentar caso os valores trabalhados sejam maiores. 
-  ![alt](/img/grafico_de_meta_com_imagem/2025-02-13_22-26.png)
+  ![alt](img/grafico_de_meta_com_imagem/2025-02-13_22-26.png)
 - Copiar a imagem da seta vermelha.
 - Selecionar a barra que representa o 1500.
 - Colar a imagem.
@@ -278,6 +281,61 @@
 
 
 ## Dashboard no Excel
+  ![alt](/)
 
 ## Dicas do Excel
-  ![alt](/)
+
+### Cálculos com Porcentagem
+
+Na matemática e no Excel, 100% é representado pelo número 1. Ao digitar uma porcentagem no Excel, a célula deve ser formatada como porcentagem antes ou o número digitado deve correspondente ao valor da porcentagem, ver imagem abaixo.
+  ![alt](img/porcentagem/2025-02-17_11-47.png)
+
+Para converter um valor que está em uma célula formatada como geral para porcentagem, Abaixo temos as duas imagens com exemplos errados e corretos de como realizar a conversão.
+  ![alt](img/porcentagem/2025-02-17_12-03.png)
+  ![alt](img/porcentagem/2025-02-17_12-07.png)
+
+Descobrir um percentual de um valor.  
+  ![alt](img/porcentagem/2025-02-17_12-18.png)
+
+Descobrir quantos porcento o valor de um item representa sobre um valor total.
+  ![alt](img/porcentagem/2025-02-17_12-43.png)
+
+Descobrir o crescimento percentual.
+  ![alt](img/porcentagem/2025-02-17_12-52.png)
+
+Aumentar ou diminuir uma porcentagem.
+  ![alt](img/porcentagem/2025-02-17_12-58.png)
+  ![alt](img/porcentagem/2025-02-17_13-17.png)
+
+Descobrir quantos porcentos um valor representa sobre o total.
+  ![alt](img/porcentagem/2025-02-17_13-27.png)
+
+Descobrir quanto em porcentagem os valores acumulados representam.
+  ![alt](img/porcentagem/2025-02-17_13-34.png)
+
+### Formatação Condicional
+
+- Técnica para pintar linhas
+  ![alt](img/formatacao_condicional/2025-02-17_18-23.png)
+
+- Técnica para destacar linha de acordo com texto selecionado.
+  ![alt](img/formatacao_condicional/2025-02-17_18-25.png)
+
+- Técnica para marcar a partir da segunda vez que um dado aparece.
+  ![alt](img/formatacao_condicional/2025-02-17_18-28.png)
+
+- Técnica para exibir símbolos com a fonte Wingdings.
+  ![alt](img/formatacao_condicional/2025-02-17_18-37.png)
+  ![alt](img/formatacao_condicional/2025-02-17_18-39.png)
+
+### Trabalhando com Datas
+
+A imagen abaixo possui as funções disponíveis para trabalhar com data.
+  ![alt](img/trabalhando_com_datas/2025-02-19_08-12.png)
+
+A próxima imagem mostra as fórmulas utilizadas na imagem anterior.
+  ![alt](img/trabalhando_com_datas/2025-02-19_08-13.png)
+
+As póximas imagens mostram as formatações de datas utilizadas nas colunas E e AC.
+  ![alt](img/trabalhando_com_datas/2025-02-19_08-33.png)
+  ![alt](img/trabalhando_com_datas/2025-02-19_08-36.png)
