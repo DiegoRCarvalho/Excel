@@ -16,6 +16,7 @@
   - [Cálculos com Porcentagem](#cálculos-com-porcentagem)
   - [Formatação Condicional](#formatação-condicional)
   - [Trabalhando com Datas](#trabalhando-com-datas)
+  - [Trabalhando com somas de mais de 24 horas](#trabalhando-com-somas-de-mais-de-24-horas)
 
 
 
@@ -339,3 +340,13 @@ A próxima imagem mostra as fórmulas utilizadas na imagem anterior.
 As póximas imagens mostram as formatações de datas utilizadas nas colunas E e AC.
   ![alt](img/trabalhando_com_datas/2025-02-19_08-33.png)
   ![alt](img/trabalhando_com_datas/2025-02-19_08-36.png)
+
+
+### Trabalhando com somas de mais de 24 horas
+
+Para trabalhar com soma de mais de 24 horas, ver as etapas adotadas nas imagens abaixo.
+
+  ![alt](img/trabalhando_com_horas/2025-02-20_07-32.png)
+  ![alt](img/trabalhando_com_horas/2025-02-20_07-33.png)
+  ![alt](img/trabalhando_com_horas/2025-02-20_07-34.png)
+  ![alt](img/trabalhando_com_horas/2025-02-20_07-35.png)
